@@ -1,6 +1,13 @@
 # GRID: Geometry and Ray-Depth Integrated Decision-making for Unmanned Aerial Vehicles
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2611.23491"><img src="https://img.shields.io/badge/arXiv-2611.23491-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://github.com/anas2908/GRID-UAV/releases/tag/v1.0"><img src="https://img.shields.io/badge/weights-v1.0-1f6fb4.svg" alt="weights"></a>
+</p>
+
+**Paper:** [arxiv.org/abs/2611.23491](https://arxiv.org/abs/2611.23491)
+
+<p align="center">
   <img src="docs/assets/teaser.png" width="100%" alt="GRID teaser">
 </p>
 
