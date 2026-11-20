@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# large artifacts: keep out of git
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.npz
+*.h5
+wandb/
+outputs/
+logs/
+data/
+checkpoints/
+eval_results/
+third_party/AeroVLA/
+*.npy

@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grid-uav"
+version = "1.0.0"
+description = "GRID: Geometry and Ray-Depth Integrated Decision-making for UAV vision-language navigation"
+requires-python = ">=3.10"
+dependencies = [
+    "torch==2.1.2",
+    "torchvision==0.16.2",
+    "transformers==4.42.4",
+    "tokenizers==0.19.1",
+    "timm==0.9.10",
+    "peft==0.11.1",
+    "accelerate==0.32.1",
+    "safetensors>=0.4",
+    "huggingface_hub>=0.23",
+    "sentencepiece==0.1.99",
+    "numpy==1.26.3",
+    "scipy>=1.11",
+    "pillow>=10.0",
+    "opencv-python>=4.8",
+    "einops>=0.6",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+train = ["vggt @ git+https://github.com/facebookresearch/vggt.git@a288dd0f14786c93483e45524328726ab7b1b4ce"]
+
+[tool.setuptools.packages.find]
+where = [".", "third_party"]
+include = ["grid*", "depth_anything_v2*"]

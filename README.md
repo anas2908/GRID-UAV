@@ -1,8 +1,5 @@
 # GRID: Geometry and Ray-Depth Integrated Decision-making for Unmanned Aerial Vehicles
 
-> [!NOTE]
-> The code and model weights will be released before the end of November 2026.
-
 <p align="center">
   <img src="docs/assets/teaser.png" width="100%" alt="GRID teaser">
 </p>
