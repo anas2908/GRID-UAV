@@ -52,6 +52,7 @@ The policy is built on OpenVLA-7B with LoRA. It outputs discrete forward, vertic
 - [Repository layout](#repository-layout)
 - [Results](#results)
 - [License and acknowledgements](#license-and-acknowledgements)
+- [Citation](#citation)
 
 ## Quick start
 
@@ -232,3 +233,16 @@ The code is released under the Apache 2.0 license (see `LICENSE`). The released 
 - [VGGT](https://github.com/facebookresearch/vggt), used during training only
 
 We thank the authors of [TravelUAV](https://github.com/prince687028/TravelUAV), [AeroVLA](https://github.com/XuPeng23/AeroVLA), [OpenVLA](https://github.com/openvla/openvla), [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2), [VGGT](https://github.com/facebookresearch/vggt), [SpatialVLA](https://github.com/SpatialVLA/SpatialVLA) and [Spatial Forcing](https://github.com/OpenHelix-Team/Spatial-Forcing) for releasing their code, models and data.
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{Khan2026GRIDUAVGA,
+  title={GRID-UAV: Geometry and Ray-depth Integrated Decision-making for Unmanned Aerial Vehicles},
+  author={Anas Anwarul Haq Khan and Amrin Kareem and Muhammad Umer Sheikh and Biplab Banerjee and Muhammad Haris Khan},
+  year={2026},
+  url={https://api.semanticscholar.org/CorpusID:296004068}
+}
+```
